@@ -1,5 +1,5 @@
-module Savon
-
-  Version = "0.7.9"
-
+module BioRitmo
+  module Savon
+    Version = "0.7.9"
+  end
 end
