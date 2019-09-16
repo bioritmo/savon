@@ -1,16 +1,16 @@
 lib = File.expand_path "../lib", __FILE__
 $:.unshift lib unless $:.include? lib
 
-require "savon/version"
+require "bioritmo/savon/version"
 
 Gem::Specification.new do |s|
   s.name = "biosavon"
   s.version = BioRitmo::Savon::Version
   s.date = Date.today.to_s
 
-  s.authors = "Daniel Harrington"
-  s.email = "me@rubiii.com"
-  s.homepage = "http://github.com/rubiii/savon"
+  s.authors = "Adriano Torres"
+  s.email = "adriano.torres@bioritmo.com.br"
+  s.homepage = "http://github.com//bioritmo/savon/tree/bioritmo"
   s.summary = "Heavy metal Ruby SOAP client library"
 
   s.files = Dir["[A-Z]*", "{lib,spec}/**/*.{rb,xml,yml,gz}"]

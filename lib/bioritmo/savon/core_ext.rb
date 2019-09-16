@@ -1,0 +1,8 @@
+require "bioritmo/savon/core_ext/object"
+require "bioritmo/savon/core_ext/string"
+require "bioritmo/savon/core_ext/symbol"
+require "bioritmo/savon/core_ext/datetime"
+require "bioritmo/savon/core_ext/array"
+require "bioritmo/savon/core_ext/hash"
+require "bioritmo/savon/core_ext/uri"
+require "bioritmo/savon/core_ext/net_http"

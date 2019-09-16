@@ -7,5 +7,5 @@ Spec::Runner.configure do |config|
   config.mock_with :mocha
 end
 
-require "savon"
-Savon::Request.log = false
+require "bioritmo/savon"
+BioRitmo::Savon::Request.log = false

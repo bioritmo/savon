@@ -1,6 +1,5 @@
 module BioRitmo
   module Savon
-
     # Raised in case of an HTTP error.
     class HTTPError < StandardError; end
 
@@ -25,13 +24,13 @@ require "builder"
 require "crack/xml"
 
 # core files
-require "savon/core_ext"
-require "savon/wsse"
-require "savon/soap"
-require "savon/logger"
-require "savon/request"
-require "savon/response"
-require "savon/wsdl_stream"
-require "savon/wsdl"
-require "savon/client"
-require "savon/version"
+require "bioritmo/savon/core_ext"
+require "bioritmo/savon/wsse"
+require "bioritmo/savon/soap"
+require "bioritmo/savon/logger"
+require "bioritmo/savon/request"
+require "bioritmo/savon/response"
+require "bioritmo/savon/wsdl_stream"
+require "bioritmo/savon/wsdl"
+require "bioritmo/savon/client"
+require "bioritmo/savon/version"
